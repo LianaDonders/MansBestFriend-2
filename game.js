@@ -117,7 +117,7 @@ Aquaplane.Game.prototype = {
 
     create: function () {
 
-        this.add.image(0, 0, 'sea');
+        this.add.image(0, 0, 'town');
 
         this.waterParticle = this.make.bitmapData(2, 2);
         this.waterParticle.rect(0, 0, 2, 2, '#ffffff');
