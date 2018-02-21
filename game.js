@@ -46,7 +46,7 @@ Aquaplane.MainMenu.prototype = {
 
         //this.add.image(0, 0, 'sea');
         var town = this.add.sprite(0, 0, 'town');
-        var scroll = town.add.animations('scroll');
+        var scroll = town.animations.add('scroll');
         town.animations.play('scroll', 12, true);
 
         var logo = this.add.image(this.world.centerX, 200, 'logo');
