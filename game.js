@@ -85,7 +85,7 @@ Aquaplane.Game = function (game) {
     this.itemDist = ['pole', 'pole', 'pole', 'rock', 'rock', 'rock', 'shark'];
 
     this.dog = null;
-    this.man = null;
+    this.skier = null;
     this.rope = null;
 
     this.timer = null;
