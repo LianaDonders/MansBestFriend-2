@@ -150,7 +150,7 @@ Aquaplane.Game.prototype = {
         this.boat.body.fixedRotation = true;
         this.boat.body.collideWorldBounds = false;
 
-        this.skier = this.layer.create(0, 0, 'skier');
+        this.man = this.layer.create(0, 0, 'man');
 
         this.physics.p2.enable(this.skier, false);
 
