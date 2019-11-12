@@ -141,7 +141,7 @@ Aquaplane.Game.prototype = {
 
         this.layer = this.add.group();
 
-        this.boat = this.layer.create(0, 0, 'boat');
+        this.boat = this.layer.create(0, 0, 'dog');
 
         this.physics.p2.enable(this.boat, false);
 
